@@ -11,8 +11,11 @@ export default function Home() {
           <Image src={bigPinkImg} alt="yard" />
         </div>
         <div className="lg:w-1/2 m-auto">
-          <h1 className="text-center text-5xl lg:mb-[15px]">
-            Go Green with GROWGREEN
+          <h1 className="text-center flex flex-row text-5xl lg:mb-[15px]">
+            Go Green with{" "}
+            <span className="text-[45px] text-[#606C38]">
+              <span className="text-[#283618]"> GROW</span>GREEN
+            </span>
           </h1>
           <p className="px-3 text-xl">
             At GrowGreen Lawn and Landscaping, we're more than just a lawn care
@@ -40,16 +43,18 @@ export default function Home() {
       <div className="relative text-[#283618]">
         <div className="w-full flex items-end lg:h-[500px] overflow-hidden">
           <Image src={retainingImg} alt="lawn" />;
-          <div className="absolute right-[100px] bottom-[50px] transform rotate-[20deg]">
+          <div className="absolute h-full w-1/2  bg-black opacity-50"></div>
+          <div className="absolute left-[100px] bottom-[50px] text-white">
             <p className="text-[50px]">More than lawn care!</p>
-            <p className="text-[45px]">Retaining Walls</p>
-            <p className="text-[45px]">Pavers</p>
-            <p className="text-[45px]">Concrete</p>
-            <p className="text-[45px]">And More!</p>
+            <ul className="list-disc list-inside">
+              <li className="text-[45px]">Retaining Walls</li>
+              <li className="text-[45px]">Pavers</li>
+              <li className="text-[45px]">Concrete</li>
+              <li className="text-[45px]">And More!</li>
+            </ul>
           </div>
         </div>
       </div>
-
     </main>
   );
 }
