@@ -67,10 +67,10 @@ export function NavBar() {
           About
         </Link>
       </div>
-      <header className="flex flex-wrap gap-10 py-4 items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-28 lg:mb-[75px] bg-[#283618] text-[#DDA15E]">
+      <header className="flex flex-wrap gap-10 py-4 items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-28 lg:mb-[75px] bg-[#283618] text-white">
         <Link
           href={"/"}
-          className="font-Playfair flex flex-col lg:flex-row lg:items-center lg:justify-center lg:p-2 tracking-widest text-xl z-0 bg-[#DDA15E]"
+          className="font-Playfair flex flex-col lg:flex-row lg:items-center lg:justify-center lg:p-2 tracking-widest text-xl z-0 bg-white"
         >
           <p className="text-[45px] flex flex-col lg:flex-row text-[#606C38]">
             <span className="text-[#283618]">GROW</span>GREEN
@@ -86,7 +86,19 @@ export function NavBar() {
         <Link href={"/contact"} className="hidden lg:inline lg:flex gap-1">
           <Image src={PhoneSvg} alt="pfp" width={23} />
           <span>Connect With Us</span>
-          <Image src={MailIcon} alt="pfp" width={23} />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="23"
+            height=""
+            viewBox="0 0 90 78"
+          >
+            <path
+              d="M0 12V78h90V12H0zm45 38.5L7.138 16.5h75.724L45 50.5zm-11-5.5L4 72.195V17.805L34 45zm2.958 2.714L45 57.918l8.943-8.204 28.919 26.53H7.138l28.82-26.816zm20.943-2.714L86 17.805v53.39L58.901 45z"
+              fill="white"
+              stroke="white"
+              strokeWidth="1"
+            />
+          </svg>
         </Link>
 
         <div className="hidden lg:flex gap-6">
