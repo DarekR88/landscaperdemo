@@ -43,7 +43,7 @@ export default function Home() {
       <div className="relative text-[#283618]">
         <div className="w-full flex items-end lg:h-[500px] overflow-hidden">
           <Image src={retainingImg} alt="lawn" />;
-          <div className="absolute h-full w-1/2  bg-black opacity-50"></div>
+          <div className="absolute h-full w-1/2  bg-black opacity-50 border-r-4 border-[]"></div>
           <div className="absolute left-[100px] bottom-[50px] text-white">
             <p className="text-[50px]">More than lawn care!</p>
             <ul className="list-disc list-inside">
