@@ -54,9 +54,9 @@ export function NavBar() {
         <Link onClick={handleClick} className="text-3xl" href="/social">
           Social Media
         </Link>
-        <Link onClick={handleClick} className="text-3xl" href="/advertising">
+        {/* <Link onClick={handleClick} className="text-3xl" href="/advertising">
           Advertising
-        </Link>
+        </Link> */}
         {/* <Link onClick={handleClick} className="text-3xl" href="/testimonials">
           Testimonials
         </Link> */}
@@ -67,18 +67,18 @@ export function NavBar() {
           About
         </Link>
       </div>
-      <header className="flex flex-wrap gap-10 py-4 items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-28 lg:mb-[75px]">
+      <header className="flex flex-wrap gap-10 py-4 items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-28 lg:mb-[75px] bg-[#283618] text-[#DDA15E]">
         <Link
           href={"/"}
-          className="font-Playfair flex flex-col lg:flex-row lg:justify-center tracking-widest text-xl z-0 px-3"
+          className="font-Playfair flex flex-col lg:flex-row lg:items-center lg:justify-center lg:p-2 tracking-widest text-xl z-0 bg-[#DDA15E]"
         >
-          <p className="text-5xl">
-            <span>V</span>ENCI
+          <p className="text-[45px] flex flex-col lg:flex-row text-[#606C38]">
+            <span className="text-[#283618]">GROW</span>GREEN
           </p>
-          <div className="flex flex-col">
-            <p className="text-base lg:mt-auto">Websites</p>
+          <div className="flex flex-col text-[#283618]">
+            <p className="text-base lg:mt-auto">Lawn</p>
             <p className="text-base lg:mt-auto">
-              <span>&</span>Advertising
+              <span>&</span>Landscaping
             </p>
           </div>
         </Link>
@@ -108,12 +108,12 @@ export function NavBar() {
           >
             Social Media
           </Link>
-          <Link
+          {/* <Link
             className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
             href="/advertising"
           >
             Advertising
-          </Link>
+          </Link> */}
           <Link
             className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
             href="/contact"

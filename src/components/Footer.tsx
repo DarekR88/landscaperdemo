@@ -13,7 +13,7 @@ export function Footer() {
           <span className="text-button-primary text-4xl">GrowGreen</span>Lawn&Landscaping
         </Link>
         <Link href={"/contact"} className="text-xl">
-          Reach your Audience
+          Free Estimates!
         </Link>
       </div>
     </>
