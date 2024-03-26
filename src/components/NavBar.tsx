@@ -30,11 +30,7 @@ export function NavBar() {
   }, []); // Run only on component mount
 
   return (
-    <main
-      className={`transition-all duration-700 ${
-        isVisible ? "opacity-100" : "opacity-0"
-      }`}
-    >
+    <main>
       <div
         className={`fixed flex flex-col w-screen h-screen z-10 bg-white text-center pt-20 gap-8 ${
           isOpen
@@ -67,7 +63,7 @@ export function NavBar() {
           About
         </Link>
       </div>
-      <header className="flex flex-wrap gap-10 py-4 items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-28 lg:mb-[75px] bg-[#283618] text-white">
+      <header className="flex flex-wrap gap-10 py-4 items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-28 lg:mb-[0px] bg-[#283618] text-white">
         <Link
           href={"/"}
           className="font-Playfair flex flex-col lg:flex-row lg:items-center lg:justify-center lg:p-2 tracking-widest text-xl z-0 bg-white"
@@ -108,7 +104,7 @@ export function NavBar() {
           >
             Home
           </Link>
-          <Link
+          {/* <Link
             className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
             href="/websites"
           >
@@ -119,7 +115,7 @@ export function NavBar() {
             href="/social"
           >
             Social Media
-          </Link>
+          </Link> */}
           {/* <Link
             className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
             href="/advertising"
