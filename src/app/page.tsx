@@ -18,14 +18,14 @@ export default function Home() {
             </span>
           </h1>
           <p className="px-3 text-xl">
-            At GrowGreen Lawn and Landscaping, we're more than just a lawn care
-            and landscaping company — we're your partners in creating and
+            At GrowGreen Lawn and Landscaping, we&#39;re more than just a lawn care
+            and landscaping company — we&#39;re your partners in creating and
             maintaining the outdoor space of your dreams. With a deep-rooted
             passion for customer service, we go beyond simply mowing lawns and
             planting flowers. We believe in nurturing relationships as much as
             we do nurturing gardens, ensuring that every interaction leaves our
             clients not just satisfied, but delighted. Welcome to GrowGreen,
-            where your lawn's potential meets our passion for perfection.
+            where your lawn&#39;s potential meets our passion for perfection.
           </p>
           <h1 className="text-center text-4xl lg:mt-[30px] lg:mb-[15px]">
             "My yard has never looked better!"
