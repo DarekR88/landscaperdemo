@@ -11,7 +11,7 @@ export default function Home() {
           <Image src={bigPinkImg} alt="yard" />
         </div>
         <div className="lg:w-1/2 m-auto">
-          <h1 className="text-center flex flex-row text-5xl lg:mb-[15px]">
+          <h1 className="text-center text-5xl lg:mb-[15px]">
             Go Green with{" "}
             <span className="text-[45px] text-[#606C38]">
               <span className="text-[#283618]"> GROW</span>GREEN
