@@ -28,7 +28,7 @@ export default function Home() {
             where your lawn&#39;s potential meets our passion for perfection.
           </p>
           <h1 className="text-center text-4xl lg:mt-[30px] lg:mb-[15px]">
-            "My yard has never looked better!"
+          &#34;My yard has never looked better!&#34;
           </h1>
           <p className="text-center text-xl">-Mark Rerwin</p>
           <p className="text-center">Satisfied Customer</p>
